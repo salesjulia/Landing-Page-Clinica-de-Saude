@@ -425,3 +425,59 @@ body{
     justify-content: center;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.nav ul {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sobre .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sobre-imagem {
+        order: -1;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .servicos-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .equipe-lista {
+        grid-template-columns: 1fr;
+    }
+
+}
